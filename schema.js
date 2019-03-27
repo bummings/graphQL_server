@@ -6,3 +6,7 @@ const {
   GraphQLList,
   GraphQLNonNull
 } = require('graphql');
+
+module.exports = new GraphQLSchema({
+  // something right here
+});
